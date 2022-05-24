@@ -7,14 +7,23 @@
     <title>Array</title>
 </head>
 <body>
-    <h2>This is the example of array.</h2>
+    <h2>This is the example of array</h2>
     <p id="demo"></p>
-
     <script>
         const cars = ["BMW", "IRBD","RRJA","PMKD", "TOLAN"];
-        cars [1]= "TAMK";
+        //type elements by use number
+        cars[6] = "Lambrgini";
+        cars[7] = "Lambrgini1";
+        cars[8] = "Lambrgini2";
+        cars[9] = "Lambrgini3";
+        cars [1]= "TACK";
+        //total elemets
         console.log(cars.length);
+        //array type find
         console.log(typeof cars);
+        //find las array element
+        console.log(cars[cars.length - 1]);
+        //output array result by id
         document.getElementById("demo").innerHTML = cars;
     </script>
 
